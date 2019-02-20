@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Iron Man</title>
+  <link rel="stylesheet" href="flex.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Logo</div>
+    <div class="search">Search</div>
+    <div class="logout">Log out</div>
+  </header>
+  <div>
+    <img
+      sizes="(max-width: 1400px) 100vw, 1400px"
+      srcset="
+              ./images/banner_r2ukfd/banner_r2ukfd_c_scale,w_320.jpg 320w,
+              ./images/banner_r2ukfd/banner_r2ukfd_c_scale,w_964.jpg 960w,
+              ./images/banner_r2ukfd/banner_r2ukfd_c_scale,w_1400.jpg 1400w"
+      src="/images/banner_r2ukfd/banner_r2ukfd_c_scale,w_1400.jpg"
+      class="banner"
+      alt="Landscape banner">
+    <picture>
+      <source media="(max-width: 600px)" srcset="images/banner-cropped.jpg">
+      <source srcset="images/banner.jpg">
+      <img class="banner" src="images/banner.jpg" alt="Banner">
+    </picture>
+  </div>
+  <main class="container">
+    <p class="flex-item">Item 1</p>
+    <p class="flex-item">Item 2</p>
+    <p class="flex-item">Item 3</p>
+    <p class="flex-item">Item 4</p>
+    <p class="flex-item">Item 5</p>
+  </main>
+  <footer class="footer">footer</footer>
+</body>
+</html>

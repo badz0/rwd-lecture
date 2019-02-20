@@ -1,0 +1,12 @@
+{
+  "name": "rwd-lecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/badz0/rwd-lecture.git",
+  "author": "Bogdan Muranets <bogdan.muranets@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
